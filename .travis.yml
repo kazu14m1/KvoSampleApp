@@ -1,4 +1,5 @@
 language: objective-c
 osx_image: xcode8.3
 xcode_project: SampleApp.xcodeproj
-xcode_scheme: SampleAppTests
+xcode_scheme: SampleApp
+xcode_sdk: iphonesimulator
