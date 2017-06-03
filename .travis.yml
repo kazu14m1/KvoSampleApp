@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode8.3
+xcode_project: SampleApp.xcodeproj
+xcode_scheme: SampleAppTests
+xcode_sdk: iphonesimulator10.3
+script:
+    - xcodebuild clean && xcodebuild -scheme SampleApp -project SampleApp.xcodeproj -sdk iphonesimulator10.3 -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3' -enableCodeCoverage YES ONLY_ACTIVE_ARCH=YES ENABLE_TESTABILITY=YES build test
+after_success:
+    - bash <(curl -s https://codecov.io/bash) -J 'SampleApp'
