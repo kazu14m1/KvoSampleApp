@@ -29,6 +29,14 @@ class SampleAppUITests: XCTestCase {
     }
     
     func testExample() {
+        let app = XCUIApplication()
+        let button = app.buttons["hogeButton"]
+        let label = app.staticTexts["hogeLabel"]
+
+        XCTAssertTrue(label.label == "test")
+        button.tap()
+        XCTAssertTrue(label.label == "hogehoge")
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
