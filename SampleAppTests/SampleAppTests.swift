@@ -22,6 +22,9 @@ class SampleAppTests: XCTestCase {
     }
     
     func testExample() {
+        XCTAssertEqual("test", KvoModel.sharedInstance.hoge.str)
+        KvoModel.sharedInstance.updateHoge()
+        XCTAssertEqual("hogehoge", KvoModel.sharedInstance.hoge.str)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
