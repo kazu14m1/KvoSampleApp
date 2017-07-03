@@ -45,6 +45,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        TestRepository.sharedInstance.setDelegate(self)
+        TestRepository.sharedInstance.get("ViewController")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -77,3 +79,8 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController:TestDelegate {
+    func didGet(_ str:String) {
+        print("hogehoge \(str)")
+    }
+}

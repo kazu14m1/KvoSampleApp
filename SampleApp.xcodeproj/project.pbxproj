@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAAFC3011F03FF79002E07E2 /* TestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAFC3001F03FF79002E07E2 /* TestRepository.swift */; };
+		EAAFC3031F0405FC002E07E2 /* TestTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAFC3021F0405FC002E07E2 /* TestTabBarViewController.swift */; };
 		EAFEBB871ED17C6800B2A829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFEBB861ED17C6800B2A829 /* AppDelegate.swift */; };
 		EAFEBB891ED17C6800B2A829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFEBB881ED17C6800B2A829 /* ViewController.swift */; };
 		EAFEBB8C1ED17C6800B2A829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEBB8A1ED17C6800B2A829 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAAFC3001F03FF79002E07E2 /* TestRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRepository.swift; sourceTree = "<group>"; };
+		EAAFC3021F0405FC002E07E2 /* TestTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTabBarViewController.swift; sourceTree = "<group>"; };
 		EAFEBB831ED17C6800B2A829 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFEBB861ED17C6800B2A829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFEBB881ED17C6800B2A829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				EAFEBB8D1ED17C6800B2A829 /* Assets.xcassets */,
 				EAFEBB8F1ED17C6800B2A829 /* LaunchScreen.storyboard */,
 				EAFEBB921ED17C6800B2A829 /* Info.plist */,
+				EAAFC3001F03FF79002E07E2 /* TestRepository.swift */,
+				EAAFC3021F0405FC002E07E2 /* TestTabBarViewController.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAAFC3031F0405FC002E07E2 /* TestTabBarViewController.swift in Sources */,
 				EAFEBB891ED17C6800B2A829 /* ViewController.swift in Sources */,
 				EAFEBB871ED17C6800B2A829 /* AppDelegate.swift in Sources */,
+				EAAFC3011F03FF79002E07E2 /* TestRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
