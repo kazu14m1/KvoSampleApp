@@ -44,5 +44,6 @@ class TestTabBarViewController: UITabBarController {
 extension TestTabBarViewController:TestDelegate {
     func didGet(_ str:String) {
         print("fugafuga \(str)")
+        print("hogehoge")
     }
 }
